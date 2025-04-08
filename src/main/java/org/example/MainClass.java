@@ -5,7 +5,7 @@ public class MainClass {
 
 
         System.out.println("1111Ура, мое первое выполнение кода на Java");
-        System.out.println("Ппц как долго компилируется код на моем ноуте");
+        System.out.println("2222Ппц как долго компилируется код на моем ноуте");
         System.out.println("Я уже работал с IDE, на Pycharm работал, знаю шо это такое:)");
     }
 }
