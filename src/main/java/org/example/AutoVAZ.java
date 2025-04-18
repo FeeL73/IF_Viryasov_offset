@@ -1,8 +1,8 @@
 package org.example;
 
 public class AutoVAZ extends Car{
-    private int countYearLiveCar;     // скорость в полете
-    private String whyCarLive;       // дальность полета
+    private int countYearLiveCar;
+    private String whyCarLive;
     public AutoVAZ(String nameModel, float speedMax, int yearCreate, int countDor,
                  int carMileage, String color, boolean belongsToElonMusk, boolean carSpoiler,
                  boolean autoTransmissionBox, boolean canFly) {
@@ -18,7 +18,6 @@ public class AutoVAZ extends Car{
         this.countYearLiveCar = countYearLiveCar;
         this.whyCarLive = whyCarLive;
     }
-
 
     @Override
     public String getFullInfo() {

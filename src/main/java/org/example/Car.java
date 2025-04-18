@@ -56,11 +56,6 @@ public abstract class Car {
         return nameModel;
     }
 
-//    public boolean CanFly() {
-//        return canFly;
-//    }
-
-
     public boolean canFly() {
         return canFly;
     }

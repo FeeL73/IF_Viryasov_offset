@@ -2,7 +2,6 @@
 package org.example;
 import java.util.ArrayList;
 import java.util.List;
-//КОНФЛИКТт11111115555
 public class MainClass {
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
@@ -15,9 +14,9 @@ public class MainClass {
         cars.add(new Chery("Tiggo 7 PtoMax", 199, 2023, 5, 50, "Black", true,false,false,false));
         cars.add(new Geely("Mongaro", 2017, 2024, 5, 0, "While", true,false,false,false));
         cars.add(new Geely("Coolray", 2008, 2023, 5, 1000, "Blue", false,false,false,false));
-        cars.add(new AutoVAZ("Буханка", 999, 1950, 5, 999999, "Ржавчины", false, false, false, true));
-        cars.add(new AutoVAZ("Сёмерка", 500, 1950, 5, 999999, "Ржавчины", false, false, false, true));
-        cars.add(new AutoVAZ("Сёмерка", 500, 1950, 5, 999999, "Ржавчины", false, false, false, true));
+        cars.add(new AutoVAZ("Буханка", 999, 1950, 5, 999999, "Ржавчины", false, false, false, true, 15, "ВАЗ"));
+        cars.add(new AutoVAZ("Сёмерка", 500, 1950, 5, 999999, "Ржавчины", false, false, false, true, 10, "АвтоВАЗ"));
+        cars.add(new AutoVAZ("Сёмерка", 500, 1950, 5, 999999, "Ржавчины", false, false, false, true, 25, "Чудо"));
         cars.add(new AutoVAZ("Сёмерка", 500, 1950, 5, 999999, "Ржавчины", false, false, false, true, 5, "ХЗ"));
 
 
@@ -47,7 +46,7 @@ public class MainClass {
             }
         }
     }
-    //МЕТОД КОТОРЫЙ ВЫДАЕТ МАШИНЫ КОТОРЫЕ УМЕЮТ ЛЕТАТЬ
+
     public static void printCarsWhenCanFly(List<Car> cars) {
         System.out.println("\nМАШИНА УМЕЕТ ЛЕТАТЬ:");
         for (Car car : cars) {
@@ -56,5 +55,4 @@ public class MainClass {
             }
         }
     }
-
 }
