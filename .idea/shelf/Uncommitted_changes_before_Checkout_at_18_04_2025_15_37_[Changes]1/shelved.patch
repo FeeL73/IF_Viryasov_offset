@@ -1,0 +1,45 @@
+Index: src/test/java/org/example/AppTest.java
+===================================================================
+diff --git a/src/test/java/org/example/AppTest.java b/src/test/java/org/example/AppTest.java
+deleted file mode 100644
+--- a/src/test/java/org/example/AppTest.java	(revision 7c8133da88206365a9569bd9f53cf71d79e164dc)
++++ /dev/null	(revision 7c8133da88206365a9569bd9f53cf71d79e164dc)
+@@ -1,38 +0,0 @@
+-package org.example;
+-
+-import junit.framework.Test;
+-import junit.framework.TestCase;
+-import junit.framework.TestSuite;
+-
+-/**
+- * Unit test for simple App.
+- */
+-public class AppTest 
+-    extends TestCase
+-{
+-    /**
+-     * Create the test case
+-     *
+-     * @param testName name of the test case
+-     */
+-    public AppTest( String testName )
+-    {
+-        super( testName );
+-    }
+-
+-    /**
+-     * @return the suite of tests being tested
+-     */
+-    public static Test suite()
+-    {
+-        return new TestSuite( AppTest.class );
+-    }
+-
+-    /**
+-     * Rigourous Test :-)
+-     */
+-    public void testApp()
+-    {
+-        assertTrue( true );
+-    }
+-}
