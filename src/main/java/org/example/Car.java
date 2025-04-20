@@ -1,5 +1,10 @@
 package org.example;
+import lombok.Getter;
+import lombok.Setter;
 
+
+@Getter
+@Setter
 public abstract class Car {
     private String nameModel;
     private float speedMax;
@@ -40,17 +45,6 @@ public abstract class Car {
                 ", Умеет летать? " + (canFly ? " Да " : " Нет ")  ;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String newColor) {
-        this.color = newColor;
-    }
-
-    public int getYearCreate() {
-        return yearCreate;
-    }
 
     public String getBrand() {
         return nameModel;
