@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Выполнил ДЗ, отправляю на ревью">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_47__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_56_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_56__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_57_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_57_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_57__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2025_16_57__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +60,16 @@
     "JUnit.FirstTest.executor": "Run",
     "JUnit.MainTest.authSiteTest.executor": "Run",
     "JUnit.MainTest.authTest.executor": "Run",
+    "JUnit.MainTest.chechCountTask.executor": "Run",
+    "JUnit.MainTest.chechCountTaskTest.executor": "Run",
     "JUnit.MainTest.checkNumberTaskTest.executor": "Run",
     "JUnit.MainTest.checoutTaskTest.executor": "Run",
+    "JUnit.MainTest.createBugTest.executor": "Run",
     "JUnit.MainTest.createNewBugTest.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "JUnit.MainTest.goProjectTest.executor": "Run",
+    "JUnit.MainTest.homeworkCheckTest.executor": "Run",
+    "JUnit.MainTest.test.executor": "Run",
     "JUnit.MainTest.testLogin.executor": "Run",
     "JUnit.MainTest.testLoginTwo.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -88,8 +86,8 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.createNewBugTest">
-    <configuration name="MainTest.authSiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
+    <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +97,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
       <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="authSiteTest" />
+      <option name="METHOD_NAME" value="chechCountTaskTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.checkNumberTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.createBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -115,39 +113,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
       <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="checkNumberTaskTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.checoutTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="checoutTaskTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.createNewBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="createNewBugTest" />
+      <option name="METHOD_NAME" value="createBugTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,7 +123,7 @@
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.*" />
+          <option name="PATTERN" value="ifellow.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,13 +135,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.homeworkCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="homeworkCheckTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.createNewBugTest" />
-        <item itemvalue="JUnit.MainTest.authSiteTest" />
+        <item itemvalue="JUnit.MainTest.chechCountTaskTest" />
         <item itemvalue="JUnit.MainTest.goProjectTest" />
-        <item itemvalue="JUnit.MainTest.checkNumberTaskTest" />
-        <item itemvalue="JUnit.MainTest.checoutTaskTest" />
+        <item itemvalue="JUnit.MainTest.createBugTest" />
+        <item itemvalue="JUnit.MainTest.homeworkCheckTest" />
+        <item itemvalue="JUnit.MainTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745750072617</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Выполнил ДЗ, отправляю на ревью">
+      <option name="closed" value="true" />
+      <created>1745870061780</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1745870061780</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
