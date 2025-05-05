@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Конфликт5">
+    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Выполнил ДЗ, отправляю на ревью">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AutoVAZ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Chery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Geely.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Suzuki.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Toyota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +53,130 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainClass.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.FirstTest.executor": "Run",
+    "JUnit.MainTest.authSiteTest.executor": "Run",
+    "JUnit.MainTest.authTest.executor": "Run",
+    "JUnit.MainTest.chechCountTask.executor": "Run",
+    "JUnit.MainTest.chechCountTaskTest.executor": "Run",
+    "JUnit.MainTest.checkNumberTaskTest.executor": "Run",
+    "JUnit.MainTest.checoutTaskTest.executor": "Run",
+    "JUnit.MainTest.createBugTest.executor": "Run",
+    "JUnit.MainTest.createNewBugTest.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.goProjectTest.executor": "Run",
+    "JUnit.MainTest.homeworkCheckTest.executor": "Run",
+    "JUnit.MainTest.test.executor": "Run",
+    "JUnit.MainTest.testLogin.executor": "Run",
+    "JUnit.MainTest.testLoginTwo.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "IF__HW3",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
+    <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="chechCountTaskTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.createBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="createBugTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.goProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="goProjectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.homeworkCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="homeworkCheckTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest.chechCountTaskTest" />
+        <item itemvalue="JUnit.MainTest.goProjectTest" />
+        <item itemvalue="JUnit.MainTest.createBugTest" />
+        <item itemvalue="JUnit.MainTest.homeworkCheckTest" />
+        <item itemvalue="JUnit.MainTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,7 +274,63 @@
       <option name="project" value="LOCAL" />
       <updated>1744619905736</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Новая ветка, IF_HW3">
+      <option name="closed" value="true" />
+      <created>1745749317379</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745749317379</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Новая ветка, IF_HW3">
+      <option name="closed" value="true" />
+      <created>1745749751988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745749751988</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Добавил файл">
+      <option name="closed" value="true" />
+      <created>1745749856832</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745749856832</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Добавил файл">
+      <option name="closed" value="true" />
+      <created>1745750005605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745750005605</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Добавил файл">
+      <option name="closed" value="true" />
+      <created>1745750044308</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1745750044308</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Добавил файл">
+      <option name="closed" value="true" />
+      <created>1745750072617</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745750072617</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Выполнил ДЗ, отправляю на ревью">
+      <option name="closed" value="true" />
+      <created>1745870061780</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1745870061780</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +349,9 @@
     <MESSAGE value="Конфликт" />
     <MESSAGE value="Конфликт1" />
     <MESSAGE value="Конфликт5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Конфликт5" />
+    <MESSAGE value="Новая ветка, IF_HW3" />
+    <MESSAGE value="Добавил файл" />
+    <MESSAGE value="Выполнил ДЗ, отправляю на ревью" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил ДЗ, отправляю на ревью" />
   </component>
 </project>
