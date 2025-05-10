@@ -33,22 +33,22 @@
     &quot;assignee&quot;: &quot;FeeL73&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FeeL73/IF_Viryasov_offset.git",
-    "accountId": "e3712864-7bd3-481d-b3bf-889dca106be4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FeeL73/IF_Viryasov_offset.git&quot;,
+    &quot;accountId&quot;: &quot;e3712864-7bd3-481d-b3bf-889dca106be4&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "FeeL73",
-    "repository": "IF_Viryasov_offset"
+    &quot;owner&quot;: &quot;FeeL73&quot;,
+    &quot;repository&quot;: &quot;IF_Viryasov_offset&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -63,39 +63,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainClass.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.FirstTest.executor": "Run",
-    "JUnit.MainTest.authSiteTest.executor": "Run",
-    "JUnit.MainTest.authTest.executor": "Run",
-    "JUnit.MainTest.chechCountTask.executor": "Run",
-    "JUnit.MainTest.chechCountTaskTest.executor": "Run",
-    "JUnit.MainTest.checkNumberTaskTest.executor": "Run",
-    "JUnit.MainTest.checoutTaskTest.executor": "Run",
-    "JUnit.MainTest.createBugTest.executor": "Run",
-    "JUnit.MainTest.createNewBugTest.executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.goProjectTest.executor": "Run",
-    "JUnit.MainTest.homeworkCheckTest.executor": "Run",
-    "JUnit.MainTest.test.executor": "Run",
-    "JUnit.MainTest.testLogin.executor": "Run",
-    "JUnit.MainTest.testLoginTwo.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#3 on IF__HW3",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.authSiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.authTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.chechCountTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.chechCountTaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.checkNumberTaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.checoutTaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.createBugTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.createNewBugTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.goProjectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.homeworkCheckTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testLoginTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#3 on IF__HW3&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
     <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
@@ -356,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746445317460</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Исправление над ошибками">
+      <option name="closed" value="true" />
+      <created>1746448978152</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746448978152</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
