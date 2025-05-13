@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Исправление над ошибками">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ifellow/runner/CucumberRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/utils/Props.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/utils/Props.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/WebHooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="IF_HW3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +54,10 @@
     &quot;repository&quot;: &quot;IF_Viryasov_offset&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.14/lib/src.zip!/java.base/java/lang/IllegalStateException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository/com/codeborne/selenide/7.5.1/selenide-7.5.1.jar!/com/codeborne/selenide/WebDriverThreadLocalContainer.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -66,7 +75,24 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: ATHomwork.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: AllProcessTestinBDD.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: auth.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: chechTask.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: project.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: projectTest.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: 1. Успешная авторизация.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Закрытие бага.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Переход в проект Test.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Проверка количества задач.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Проверка статуса и версии задачи (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Проверка статуса и версии задачи.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Создание нового бага (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Создание нового бага (2).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Создание нового бага.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Успешная авторизация.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CucumberRunner.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FirstTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.authSiteTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.authTest.executor&quot;: &quot;Run&quot;,
@@ -87,103 +113,121 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on IF__HW3&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;IF__HW4&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
-    <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\IdeaProjects\IF_Viryasov_offset\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: AllProcessTestinBDD">
+    <configuration name="Feature: ATHomwork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ATHomwork.feature" />
+      <option name="GLUE" value="ifellow.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ifellowTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ATHomwork" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="chechCountTaskTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.createBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: AllProcessTestinBDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AllProcessTestinBDD.feature" />
+      <option name="GLUE" value="ifellow.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ifellowTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: AllProcessTestinBDD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="createBugTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.goProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Проверка статуса и версии задачи (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createBug.feature" />
+      <option name="GLUE" value="ifellow.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ifellowTest" />
+      <option name="NAME_FILTER" value="^Проверка статуса и версии задачи$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Проверка статуса и версии задачи$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Проверка статуса и версии задачи" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.pages.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="goProjectTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.homeworkCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 1. Успешная авторизация" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AllProcessTestinBDD.feature" />
+      <option name="GLUE" value="ifellow.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ifellowTest" />
+      <option name="NAME_FILTER" value="^1\. Успешная авторизация$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1\. Успешная авторизация$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1. Успешная авторизация" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="homeworkCheckTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.*" />
+          <option name="PATTERN" value="ifellow.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ifellow.runner" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.runner.CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.chechCountTaskTest" />
-        <item itemvalue="JUnit.MainTest.goProjectTest" />
-        <item itemvalue="JUnit.MainTest.createBugTest" />
-        <item itemvalue="JUnit.MainTest.homeworkCheckTest" />
-        <item itemvalue="JUnit.MainTest.test" />
+        <item itemvalue="Cucumber Java.Feature: AllProcessTestinBDD" />
+        <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="Cucumber Java.Scenario: 1. Успешная авторизация" />
+        <item itemvalue="Cucumber Java.Scenario: Проверка статуса и версии задачи (1)" />
+        <item itemvalue="Cucumber Java.Feature: ATHomwork" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746448978152</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Исправление над ошибками">
+      <option name="closed" value="true" />
+      <created>1746876252858</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746876252858</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

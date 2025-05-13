@@ -12,14 +12,12 @@ public class Props {
 
     static {
         try (FileInputStream input = new FileInputStream(CONFIG_FILE_PATH)) {
-            // Загрузка свойств из файла
             properties.load(input);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    // Метод для получения значения по ключу
     public static String getProperty(String key) {
         return properties.getProperty(key);
     }

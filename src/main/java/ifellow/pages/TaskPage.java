@@ -35,11 +35,12 @@ public class TaskPage {
     private SelenideElement executor = $x("//button[@id='assign-to-me-trigger']").as("исполнитель");
     private SelenideElement linkToEpic = $x("//input[@id='customfield_10100-field']").as("Ссылка на эпики");
     private SelenideElement sprint = $x("//input[@id='customfield_10104-field']").as("Спринт");
+    private SelenideElement checSeriousness = $x("//select[@id='customfield_10400']");
     private SelenideElement seriousness = $x("//select[@id='customfield_10400']/option[@value='10100']").as("Серьезность");
     private SelenideElement fileInput = $x("(//div[@class='field-group file-input-list long-field'])//input[@class='issue-drop-zone__file ignore-inline-attach']").as("Ввод файла");
 
-    public void createAndResolveBug(String issueType, String topic, String priority, String labels, String description, String taskValue, String sprintValue) {
-
+    public boolean createAndResolveBug(String issueType, String topic, String priority, String labels, String description, String taskValue, String sprintValue) {
+        try {
         issueTypeField.shouldBe(visible).sendKeys(issueType);
         topicBag.shouldBe(visible).sendKeys(topic);
         clickVisualButtonIfNotFocused(descriptionVisualButton);
@@ -65,11 +66,16 @@ public class TaskPage {
         linkToEpic.sendKeys(Keys.ENTER);
         sprint.setValue(sprintValue);
         sprint.pressEnter();
-        seriousness.click();
-        submitButton.shouldBe(visible).click();
-        createdIssueLink.shouldBe(visible).click();
+        checSeriousness.click();
+        seriousness.shouldBe(visible, Duration.ofSeconds(10)).click();
+        submitButton.shouldBe(visible, Duration.ofSeconds(10)).click();
+        createdIssueLink.shouldBe(visible, Duration.ofSeconds(10)).click();
         moreActionsButton.shouldBe(visible).click();
         resolveOption.shouldBe(visible).click();
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     private void clickVisualButtonIfNotFocused(SelenideElement button) {
