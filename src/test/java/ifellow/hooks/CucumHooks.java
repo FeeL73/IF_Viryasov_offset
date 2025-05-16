@@ -1,5 +1,5 @@
 
-package ifellow.steps.hooks;
+package ifellow.hooks;
 
 import com.codeborne.selenide.Configuration;
 import io.cucumber.java.After;

@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Исправление над ошибками">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ifellow/runner/CucumberRunner.java" afterDir="false" />
+    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Домашнее задание IF_HW_4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/TaskPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/utils/Props.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/utils/Props.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/WebHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/steps/ProjectTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/steps/ProjectTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/steps/hooks/CucumHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/hooks/CucumHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/runner/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/runner/CucumberRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +126,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andre\IdeaProjects\IF_Viryasov_offset\src\test\resources\features" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ifellow" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: AllProcessTestinBDD">
+  <component name="RunManager" selected="JUnit.CucumberRunner">
     <configuration name="Feature: ATHomwork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ATHomwork.feature" />
@@ -223,8 +226,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: AllProcessTestinBDD" />
         <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="Cucumber Java.Feature: AllProcessTestinBDD" />
         <item itemvalue="Cucumber Java.Scenario: 1. Успешная авторизация" />
         <item itemvalue="Cucumber Java.Scenario: Проверка статуса и версии задачи (1)" />
         <item itemvalue="Cucumber Java.Feature: ATHomwork" />
@@ -416,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746876252858</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Домашнее задание IF_HW_4">
+      <option name="closed" value="true" />
+      <created>1747135797475</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747135797475</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,6 +450,7 @@
     <MESSAGE value="Добавил файл" />
     <MESSAGE value="Выполнил ДЗ, отправляю на ревью" />
     <MESSAGE value="Исправление над ошибками" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление над ошибками" />
+    <MESSAGE value="Домашнее задание IF_HW_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание IF_HW_4" />
   </component>
 </project>

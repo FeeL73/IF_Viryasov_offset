@@ -9,10 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ProjectTestSteps {
-    private AuthPage authPage;
     private DashboardPage dashboardPage;
-    private ProjectPage projectPage;
-    private TaskPage taskPage;
     @Когда("пользователь переходит в проект TEST")
     public void goProjectTest() {
         dashboardPage = new DashboardPage();
