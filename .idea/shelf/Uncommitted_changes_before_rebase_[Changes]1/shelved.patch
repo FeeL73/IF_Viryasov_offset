@@ -1,0 +1,422 @@
+Index: src/main/java/ifellow/pages/HomeworkPage.java
+===================================================================
+diff --git a/src/main/java/ifellow/pages/HomeworkPage.java b/src/main/java/ifellow/pages/HomeworkPage.java
+deleted file mode 100644
+--- a/src/main/java/ifellow/pages/HomeworkPage.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,24 +0,0 @@
+-package ifellow.pages;
+-
+-import com.codeborne.selenide.SelenideElement;
+-import java.time.Duration;
+-import static com.codeborne.selenide.Condition.visible;
+-import static com.codeborne.selenide.Selenide.$x;
+-
+-public class HomeworkPage {
+-
+-    private final SelenideElement valueStatus = $x("//span[@id='status-val']").as("Статус задачи");
+-    private final SelenideElement valueVersionEdit = $x("//span[@id='fixfor-val']").as("Версия задачи");
+-    private final SelenideElement buttonCreateBug = $x("//a[@id='create_link']").as("Кнопка создания Бага");
+-
+-    public String getTaskStatus() {
+-        return valueStatus.getText();
+-    }
+-    public String getTaskVersion() {
+-        return valueVersionEdit.getText();
+-    }
+-    public HomeworkPage createBug() {
+-        buttonCreateBug.shouldBe(visible, Duration.ofSeconds(10)).click();
+-        return this;
+-    }
+-}
+Index: src/test/java/ifellow/MainTest.java
+===================================================================
+diff --git a/src/test/java/ifellow/MainTest.java b/src/test/java/ifellow/MainTest.java
+deleted file mode 100644
+--- a/src/test/java/ifellow/MainTest.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,88 +0,0 @@
+-package ifellow;
+-
+-import ifellow.pages.*;
+-import org.junit.jupiter.api.*;
+-import com.codeborne.selenide.WebDriverRunner;
+-import org.openqa.selenium.WebDriver;
+-import ifellow.pages.utils.Props;
+-import org.slf4j.Logger;
+-import org.slf4j.LoggerFactory;
+-
+-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+-import static org.junit.jupiter.api.Assertions.assertTrue;
+-
+-public class MainTest extends WebHooks {
+-    private static final Logger log = LoggerFactory.getLogger(ProjectPage.class);
+-    private AuthPage authPage;
+-    private DashboardPage dashboardPage;
+-    private ProjectPage projectPage;
+-    private TaskPage taskPage;
+-
+-    HomeworkPage homeworkPage = new HomeworkPage();
+-
+-    @Test
+-    @DisplayName("1. Авторизация в https://edujira.ifellow.ru/")
+-    public void authSiteTest() {
+-        String username = Props.getProperty("username");
+-        String password = Props.getProperty("password");
+-        authPage = new AuthPage();
+-        authPage.login(username, password);
+-        WebDriver driver = WebDriverRunner.getWebDriver();
+-        assertTrue(driver.getCurrentUrl().contains("secure/Dashboard.jspa"),
+-                "URL после авторизации должен содержать 'secure/Dashboard.jspa'");
+-        log.info("Успешная авторизация пользователя: {}", username);
+-    }
+-
+-    @Test
+-    @DisplayName("2. Перейти в проект Test")
+-    public void goProjectTest() {
+-        authSiteTest();
+-        dashboardPage = new DashboardPage();
+-        assertDoesNotThrow(() -> dashboardPage.goToProject(),
+-                "Не удалось перейти в проект Test");
+-        log.info("Успешный переход в проект Test");
+-    }
+-
+-    @Test
+-    @DisplayName("3. Проверить общее количество заведенных задач в проекте")
+-    public void chechCountTaskTest() {
+-        goProjectTest();
+-        projectPage = new ProjectPage();
+-        assertDoesNotThrow(() -> projectPage.applyFilterAndViewTasks(),
+-                "Не удалось применить фильтр и отобразить задачи");
+-        int initialTaskCountMain = projectPage.getCurrentTaskCount();
+-        int initialTaskCount = projectPage.waitForTaskCountChange(initialTaskCountMain);
+-        log.debug("initialTaskCount {}", initialTaskCount);
+-        taskPage = new TaskPage();
+-        taskPage.createNewTask("fonk Остров сокровищ");
+-        projectPage.applyFilterAndViewTasks();
+-        int finalTaskCount = projectPage.waitForTaskCountChange(initialTaskCount);
+-        log.debug("finalTaskCount  {}", finalTaskCount);
+-        log.info("Количество задач изменилось с {} на {}", initialTaskCount, finalTaskCount);
+-        assertTrue(finalTaskCount > initialTaskCount, "Количество задач не изменилось!");
+-    }
+-
+-    @Test
+-    @DisplayName("4. Перейти в задачу TestSeleniumATHomework и проверить")
+-    public void homeworkCheckTest(){
+-        chechCountTaskTest();
+-        projectPage.searchForTask("TestSeleniumATHomework");
+-        String taskStatus = homeworkPage.getTaskStatus();
+-        String taskVersion = homeworkPage.getTaskVersion();
+-        Assertions.assertEquals("СДЕЛАТЬ", taskStatus, "Статус задачи не соответствует ожидаемому");
+-        Assertions.assertEquals("Version 2.0", taskVersion, "Версия задачи не соответствует ожидаемому");
+-    }
+-
+-    @Test
+-    @DisplayName("5. Создать новый баг с описанием")
+-    public void createBugTest(){
+-        homeworkCheckTest();
+-        homeworkPage.createBug();
+-        taskPage.createAndResolveBug("123","123","Highest","hh","gfg","TEST-121544","Доска Спринт 1");
+-    }
+-
+-    @AfterEach
+-    public void tearDown() {
+-        log.debug("Тест завершен");
+-    }
+-}
+Index: src/test/java/ifellow/WebHooks.java
+===================================================================
+diff --git a/src/test/java/ifellow/WebHooks.java b/src/test/java/ifellow/WebHooks.java
+deleted file mode 100644
+--- a/src/test/java/ifellow/WebHooks.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,25 +0,0 @@
+-package ifellow;
+-
+-import io.github.bonigarcia.wdm.WebDriverManager;
+-import com.codeborne.selenide.WebDriverRunner;
+-import org.openqa.selenium.WebDriver;
+-import org.junit.jupiter.api.BeforeAll;
+-import org.junit.jupiter.api.BeforeEach;
+-import static com.codeborne.selenide.Selenide.open;
+-import ifellow.pages.utils.Props;
+-
+-public class WebHooks {
+-
+-    @BeforeAll
+-    public static void beforeAll() {
+-    }
+-
+-    @BeforeEach
+-    public void setUp() {
+-        WebDriverManager.chromedriver().setup();
+-        String baseUrl = Props.getProperty("baseUrl");
+-        open(baseUrl);
+-        WebDriver driver = WebDriverRunner.getWebDriver();
+-        driver.manage().window().maximize();
+-    }
+-}
+Index: src/main/java/ifellow/pages/AuthPage.java
+===================================================================
+diff --git a/src/main/java/ifellow/pages/AuthPage.java b/src/main/java/ifellow/pages/AuthPage.java
+deleted file mode 100644
+--- a/src/main/java/ifellow/pages/AuthPage.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,20 +0,0 @@
+-package ifellow.pages;
+-
+-import com.codeborne.selenide.SelenideElement;
+-import static com.codeborne.selenide.Selenide.$x;
+-import static com.codeborne.selenide.Condition.visible;
+-
+-public class AuthPage {
+-    private SelenideElement loginButton = $x("//a[@class='aui-nav-link login-link']").as("Кнопка для открытия формы авторизации");
+-    private SelenideElement loginField = $x("//input[@id='login-form-username']").as("Поле ввода логина");
+-    private SelenideElement passwordField = $x("//input[@id='login-form-password']").as("Поле ввода пароля");
+-    private SelenideElement submitButton = $x("//input[@id='login-form-submit']").as("Кнопка входа");
+-
+-    public AuthPage login(String username, String password) {
+-        loginButton.shouldBe(visible).click();
+-        loginField.shouldBe(visible).sendKeys(username);
+-        passwordField.shouldBe(visible).sendKeys(password);
+-        submitButton.shouldBe(visible).click();
+-        return this;
+-    }
+-}
+Index: src/main/java/ifellow/pages/TaskPage.java
+===================================================================
+diff --git a/src/main/java/ifellow/pages/TaskPage.java b/src/main/java/ifellow/pages/TaskPage.java
+deleted file mode 100644
+--- a/src/main/java/ifellow/pages/TaskPage.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,97 +0,0 @@
+-package ifellow.pages;
+-
+-import com.codeborne.selenide.Condition;
+-import com.codeborne.selenide.SelenideElement;
+-import org.openqa.selenium.Keys;
+-import static com.codeborne.selenide.Condition.*;
+-import static com.codeborne.selenide.Selenide.*;
+-import java.time.Duration;
+-import org.slf4j.Logger;
+-import org.slf4j.LoggerFactory;
+-
+-public class TaskPage {
+-    private static final Logger log = LoggerFactory.getLogger(ProjectPage.class);
+-    private SelenideElement buttonCreate = $x("//a[@id='create_link']").as("Кнопка создания Задачи");
+-    private SelenideElement inputNameThems = $x("//input[@class='text long-field']").as("Поле ввода названия задачи");
+-    private SelenideElement createTaskNew = $x("//input[@id='create-issue-submit']").as("Кнопка создания задачи");
+-    private SelenideElement issueTypeField = $x("//input[@id='issuetype-field']").as("Тип Бага");
+-    private SelenideElement topicBag = $x("//input[@class='text long-field']").as("Тема Бага");
+-    private SelenideElement descriptionFrame = $x("//div[@id='description-wiki-edit']//iframe").as("Фрейм редактора описания");
+-    private SelenideElement descriptionBody = $x("//body[@id='tinymce']").as("Описание Body");
+-    private SelenideElement editVersion = $x("(//select[@id='fixVersions'])//option[@value='10001']").as("Исправить в версиях");
+-    private SelenideElement editTochVersion = $x("(//select[@id='versions'])//option[@value='10001']").as("Затронуты версии");
+-    private SelenideElement priorityField = $x("//input[@id='priority-field']").as("Приоритет Бага");
+-    private SelenideElement labelsTextarea = $x("//textarea[@id='labels-textarea']").as("Описание Метки Бага");
+-    private SelenideElement descriptionVisualButton = $x("//label[@for='description']/following-sibling::div//button[contains(@class, 'aui-button') and text()='Визуальный']").as("Кнопка 'Визаульный' для формы Описание");
+-    private SelenideElement environmentVisualButton = $x("//label[@for='environment']/following-sibling::div//button[contains(@class, 'aui-button') and text()='Визуальный']").as("Кнопка 'Визаульный' для формы Окружение");
+-    private SelenideElement environmentFrame = $x("//div[@id='environment-wiki-edit']//iframe").as("Фрейм редактора окружения");
+-    private SelenideElement environmentBody = $x("//body[@id='tinymce']").as("Body редактора окружения");
+-    private SelenideElement createdIssueLink = $x("//a[@class='issue-created-key issue-link']").as("Созданная ссылка на рассылку");
+-    private SelenideElement moreActionsButton = $x("//a[@id='opsbar-transitions_more']").as("Кнопка дополнительных действий");
+-    private SelenideElement resolveOption = $x("//div[@class='aui-dropdown2-item-group']//span[text()='Выполнено']/parent::a").as("Разрешить опцию");
+-    private SelenideElement submitButton = $x("//input[@id='create-issue-submit']").as("Кнопка создания Бага");
+-    private SelenideElement relatedTasks =  $x("//select[@id='issuelinks-linktype']/option[@value='clones']").as("Связанные задачи");
+-    private SelenideElement task = $x("//textarea[@id='issuelinks-issues-textarea']").as("задачи");
+-    private SelenideElement executor = $x("//button[@id='assign-to-me-trigger']").as("исполнитель");
+-    private SelenideElement linkToEpic = $x("//input[@id='customfield_10100-field']").as("Ссылка на эпики");
+-    private SelenideElement sprint = $x("//input[@id='customfield_10104-field']").as("Спринт");
+-    private SelenideElement seriousness = $x("//select[@id='customfield_10400']/option[@value='10100']").as("Серьезность");
+-    private SelenideElement fileInput = $x("(//div[@class='field-group file-input-list long-field'])//input[@class='issue-drop-zone__file ignore-inline-attach']").as("Ввод файла");
+-
+-    public void createAndResolveBug(String issueType, String topic, String priority, String labels, String description, String taskValue, String sprintValue) {
+-
+-        issueTypeField.shouldBe(visible).sendKeys(issueType);
+-        topicBag.shouldBe(visible).sendKeys(topic);
+-        clickVisualButtonIfNotFocused(descriptionVisualButton);
+-        setTextInFrame(descriptionFrame, descriptionBody, description);
+-        editVersion.shouldBe(visible).click();
+-        priorityField.click();
+-        priorityField.sendKeys(priority);
+-        labelsTextarea.shouldBe(visible).sendKeys(labels);
+-        clickVisualButtonIfNotFocused(environmentVisualButton);
+-        setTextInFrame(environmentFrame, environmentBody, description);
+-        String filePath = "C:\\Games\\test.txt";
+-        fileInput.sendKeys(filePath);
+-        editTochVersion.shouldBe(visible).click();
+-        relatedTasks.click();
+-        task.setValue(taskValue);
+-        task.pressEnter();
+-        executor.click();
+-        linkToEpic.shouldBe(visible);
+-        linkToEpic.click();
+-        linkToEpic.shouldBe(visible);
+-        linkToEpic.shouldHave(attribute("aria-activedescendant"));
+-        linkToEpic.sendKeys(Keys.ARROW_DOWN, Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ARROW_DOWN);
+-        linkToEpic.sendKeys(Keys.ENTER);
+-        sprint.setValue(sprintValue);
+-        sprint.pressEnter();
+-        seriousness.click();
+-        submitButton.shouldBe(visible).click();
+-        createdIssueLink.shouldBe(visible).click();
+-        moreActionsButton.shouldBe(visible).click();
+-        resolveOption.shouldBe(visible).click();
+-    }
+-
+-    private void clickVisualButtonIfNotFocused(SelenideElement button) {
+-        if (!button.has(focused)) {
+-            button.click();
+-            log.debug("Кнопка не была в фокусе, теперь она нажата.");
+-        } else {
+-            log.debug("Кнопка уже в фокусе.");
+-        }
+-    }
+-
+-    private void setTextInFrame(SelenideElement  frameLocator, SelenideElement  bodyLocator, String text) {
+-        frameLocator.shouldBe(Condition.visible, Duration.ofSeconds(10));
+-        switchTo().frame(frameLocator);
+-        bodyLocator.setValue(text);
+-        switchTo().defaultContent();
+-    }
+-
+-    public TaskPage createNewTask(String taskName) {
+-        buttonCreate.shouldBe(visible).click();
+-        inputNameThems.shouldBe(visible).sendKeys(taskName);
+-        createTaskNew.shouldBe(visible).click();
+-        return this;
+-    }
+-}
+Index: src/main/java/ifellow/pages/ProjectPage.java
+===================================================================
+diff --git a/src/main/java/ifellow/pages/ProjectPage.java b/src/main/java/ifellow/pages/ProjectPage.java
+deleted file mode 100644
+--- a/src/main/java/ifellow/pages/ProjectPage.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,58 +0,0 @@
+-package ifellow.pages;
+-
+-import com.codeborne.selenide.SelenideElement;
+-import java.time.Duration;
+-import static com.codeborne.selenide.Selenide.$x;
+-import static com.codeborne.selenide.Condition.*;
+-import static com.codeborne.selenide.Selenide.sleep;
+-import org.slf4j.Logger;
+-import org.slf4j.LoggerFactory;
+-
+-public class ProjectPage {
+-    private static final Logger log = LoggerFactory.getLogger(ProjectPage.class);
+-
+-    private final SelenideElement filterProject = $x("//button[@id='subnav-trigger']").as("Переключить фильтр");
+-    private final SelenideElement filterProjectAllTask = $x("//a[text()='Все задачи']").as("Все задачи в фильтре");
+-    private final SelenideElement taskCounter = $x("//div[@class='showing']//span").as("Количество задач");
+-    private final SelenideElement inputSearch = $x("//input[@id='quickSearchInput']").as("Поле 'Поиск' на странице");
+-
+-    public ProjectPage applyFilterAndViewTasks() {
+-        filterProject.shouldBe(visible).click();
+-        filterProjectAllTask
+-                .shouldBe(visible, Duration.ofSeconds(10))
+-                .shouldBe(enabled, Duration.ofSeconds(10))
+-                .click();
+-        return this;
+-    }
+-
+-    public int getCurrentTaskCount() {
+-        String countText = taskCounter.shouldBe(visible).getText();
+-        return Integer.parseInt(countText.split(" из ")[1]);
+-    }
+-
+-    public int waitForTaskCountChange(int initialTaskCount) {
+-        int currentTaskCountFunc = 0;
+-        String currentTaskCountText = "";
+-        long startTime = System.currentTimeMillis();
+-        while (System.currentTimeMillis() - startTime < 5000) {
+-            try {
+-                currentTaskCountText = $x("//div[@class='showing']//span").getText();
+-                currentTaskCountFunc = Integer.parseInt(currentTaskCountText.split(" из ")[1]);
+-                log.debug("waitForTaskCountChange() currentTaskCountOld:  {}", initialTaskCount);
+-                if (currentTaskCountFunc != initialTaskCount) {
+-                    log.debug("Количество задач изменилось с \" + initialTaskCount + \" на  {}", currentTaskCountFunc);
+-                    return currentTaskCountFunc;
+-                }
+-            } catch (Exception e) {
+-                log.debug("Не получили значение, повторим...");
+-            }
+-            sleep(1000);
+-        }
+-        return currentTaskCountFunc;
+-    }
+-
+-    public ProjectPage searchForTask(String taskName) {
+-        inputSearch.shouldBe(visible).setValue(taskName).pressEnter();
+-        return this;
+-    }
+-}
+\ No newline at end of file
+Index: src/main/java/ifellow/pages/utils/Props.java
+===================================================================
+diff --git a/src/main/java/ifellow/pages/utils/Props.java b/src/main/java/ifellow/pages/utils/Props.java
+deleted file mode 100644
+--- a/src/main/java/ifellow/pages/utils/Props.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,26 +0,0 @@
+-package ifellow.pages.utils;
+-
+-import java.io.FileInputStream;
+-import java.io.IOException;
+-import java.util.Properties;
+-
+-public class Props {
+-
+-    private static final String CONFIG_FILE_PATH = "src/test/resources/config.properties";
+-
+-    private static Properties properties = new Properties();
+-
+-    static {
+-        try (FileInputStream input = new FileInputStream(CONFIG_FILE_PATH)) {
+-            // Загрузка свойств из файла
+-            properties.load(input);
+-        } catch (IOException e) {
+-            e.printStackTrace();
+-        }
+-    }
+-
+-    // Метод для получения значения по ключу
+-    public static String getProperty(String key) {
+-        return properties.getProperty(key);
+-    }
+-}
+Index: src/main/java/ifellow/pages/DashboardPage.java
+===================================================================
+diff --git a/src/main/java/ifellow/pages/DashboardPage.java b/src/main/java/ifellow/pages/DashboardPage.java
+deleted file mode 100644
+--- a/src/main/java/ifellow/pages/DashboardPage.java	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,17 +0,0 @@
+-package ifellow.pages;
+-
+-import com.codeborne.selenide.SelenideElement;
+-import java.time.Duration;
+-import static com.codeborne.selenide.Selenide.$x;
+-import static com.codeborne.selenide.Condition.visible;
+-
+-public class DashboardPage {
+-    private final SelenideElement projectLink = $x("//a[@id='browse_link']").as("кнопка Проекты");
+-    private final SelenideElement projectLinkTest = $x("//a[@id='admin_main_proj_link_lnk']").as("проект TEST");
+-
+-    public DashboardPage goToProject() {
+-        projectLink.shouldBe(visible, Duration.ofSeconds(10)).click();
+-        projectLinkTest.shouldBe(visible, Duration.ofSeconds(10)).click();
+-        return this;
+-    }
+-}
+Index: src/test/resources/config.properties
+===================================================================
+diff --git a/src/test/resources/config.properties b/src/test/resources/config.properties
+deleted file mode 100644
+--- a/src/test/resources/config.properties	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
++++ /dev/null	(revision 8de621cdf3690ec15afaa4a8a0a882afe3789716)
+@@ -1,3 +0,0 @@
+-baseUrl=https://edujira.ifellow.ru/
+-username=AT7
+-password=Qwerty123
