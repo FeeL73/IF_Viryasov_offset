@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Выполнил ДЗ, отправляю на ревью">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml" beforeDir="false" />
+    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="удалить лишнее в мастер">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +73,20 @@
     "JUnit.MainTest.test.executor": "Run",
     "JUnit.MainTest.testLogin.executor": "Run",
     "JUnit.MainTest.testLoginTwo.executor": "Run",
+    "JUnit.ReqRes.executor": "Run",
+    "JUnit.ReqResTest.executor": "Run",
+    "JUnit.ReqResTest.reqResApiTest.executor": "Run",
+    "JUnit.RickAndMortyTest.executor": "Run",
+    "JUnit.RickAndMortyTest.rickAndMortyApiTest.executor": "Run",
+    "JUnit.TestMorty.cccc.executor": "Run",
+    "JUnit.TestMorty.executor": "Run",
+    "JUnit.TestMorty.rickAndMortyApiTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "IF__HW3",
+    "git-widget-placeholder": "IF__HW5",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -86,8 +95,13 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
-    <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ifellow" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ReqResTest.reqResApiTest">
+    <configuration name="ReqResTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +110,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="chechCountTaskTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.ReqResTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.createBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReqResTest.reqResApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -112,30 +125,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="createBugTest" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.ReqResTest" />
+      <option name="METHOD_NAME" value="reqResApiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.goProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="goProjectTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.homeworkCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RickAndMortyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -144,14 +141,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="homeworkCheckTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.RickAndMortyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RickAndMortyTest.cccc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +156,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.RickAndMortyTest" />
+      <option name="METHOD_NAME" value="cccc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RickAndMortyTest.rickAndMortyApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.RickAndMortyTest" />
+      <option name="METHOD_NAME" value="rickAndMortyApiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.chechCountTaskTest" />
-        <item itemvalue="JUnit.MainTest.goProjectTest" />
-        <item itemvalue="JUnit.MainTest.createBugTest" />
-        <item itemvalue="JUnit.MainTest.homeworkCheckTest" />
-        <item itemvalue="JUnit.MainTest.test" />
+        <item itemvalue="JUnit.ReqResTest.reqResApiTest" />
+        <item itemvalue="JUnit.ReqResTest" />
+        <item itemvalue="JUnit.RickAndMortyTest" />
+        <item itemvalue="JUnit.RickAndMortyTest.rickAndMortyApiTest" />
+        <item itemvalue="JUnit.RickAndMortyTest.cccc" />
       </list>
     </recent_temporary>
   </component>

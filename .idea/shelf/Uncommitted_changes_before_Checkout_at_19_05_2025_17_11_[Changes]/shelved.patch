@@ -1,0 +1,177 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"eace06a4-60a6-482b-acc6-1a489c45d811\" name=\"Changes\" comment=\"Выполнил ДЗ, отправляю на ревью\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/ifellow/MainTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/ifellow/MainTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;FeeL73&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/FeeL73/IF_Viryasov_offset.git&quot;,\r\n    &quot;accountId&quot;: &quot;e3712864-7bd3-481d-b3bf-889dca106be4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vP78QILP16wqImfXJgc9Xm6gZR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.MainClass.executor\": \"Run\",\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"JUnit.FirstTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.authSiteTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.authTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.chechCountTask.executor\": \"Run\",\r\n    \"JUnit.MainTest.chechCountTaskTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.checkNumberTaskTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.checoutTaskTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.createBugTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.createNewBugTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.goProjectTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.homeworkCheckTest.executor\": \"Run\",\r\n    \"JUnit.MainTest.test.executor\": \"Run\",\r\n    \"JUnit.MainTest.testLogin.executor\": \"Run\",\r\n    \"JUnit.MainTest.testLoginTwo.executor\": \"Run\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"IF__HW3\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.keymap\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"JUnit.MainTest.chechCountTaskTest\">\r\n    <configuration name=\"MainTest.chechCountTaskTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ifellow.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ifellow\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ifellow.MainTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"chechCountTaskTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MainTest.createBugTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ifellow.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ifellow\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ifellow.MainTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"createBugTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MainTest.goProjectTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ifellow.pages.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ifellow\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ifellow.MainTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"goProjectTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MainTest.homeworkCheckTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ifellow.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ifellow\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ifellow.MainTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"homeworkCheckTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MainTest.test\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ifellowTest\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ifellow.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ifellow\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ifellow.MainTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"test\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.MainTest.chechCountTaskTest\" />\r\n        <item itemvalue=\"JUnit.MainTest.goProjectTest\" />\r\n        <item itemvalue=\"JUnit.MainTest.createBugTest\" />\r\n        <item itemvalue=\"JUnit.MainTest.homeworkCheckTest\" />\r\n        <item itemvalue=\"JUnit.MainTest.test\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"eace06a4-60a6-482b-acc6-1a489c45d811\" name=\"Changes\" comment=\"\" />\r\n      <created>1744100115353</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1744100115353</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104581634</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104581634</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104863330</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104863330</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104997150</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104997150</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105028452</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105028452</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105724020</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105724020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105776997</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105776997</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Конфликт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619553317</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619553318</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Конфликт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619577464</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619577464</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Конфликт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619644647</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619644647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Конфликт1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619686658</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619686658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Конфликт5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619905736</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619905736</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Новая ветка, IF_HW3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745749317379</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745749317379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Новая ветка, IF_HW3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745749751988</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745749751988</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Добавил файл\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745749856832</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745749856832</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Добавил файл\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745750005605</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745750005605</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Добавил файл\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745750044308</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745750044308</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Добавил файл\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745750072617</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745750072617</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Выполнил ДЗ, отправляю на ревью\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1745870061780</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745870061780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"19\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Viryasov\" />\r\n    <MESSAGE value=\"Конфликт\" />\r\n    <MESSAGE value=\"Конфликт1\" />\r\n    <MESSAGE value=\"Конфликт5\" />\r\n    <MESSAGE value=\"Новая ветка, IF_HW3\" />\r\n    <MESSAGE value=\"Добавил файл\" />\r\n    <MESSAGE value=\"Выполнил ДЗ, отправляю на ревью\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Выполнил ДЗ, отправляю на ревью\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 381cc372ab3b304d4bd378fe3d044a387cadce38)
++++ b/.idea/workspace.xml	(date 1747661163537)
+@@ -5,10 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Выполнил ДЗ, отправляю на ревью">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,7 +23,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="IF_HW4" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -72,12 +70,18 @@
+     "JUnit.MainTest.test.executor": "Run",
+     "JUnit.MainTest.testLogin.executor": "Run",
+     "JUnit.MainTest.testLoginTwo.executor": "Run",
++    "JUnit.PetApiTest.executor": "Run",
++    "JUnit.PetApiTest.testAddNewPet.executor": "Run",
++    "JUnit.PetApiTest.testGetPetById.executor": "Run",
++    "JUnit.PetApiTest.testUpdatePetStatus.executor": "Run",
++    "JUnit.RickAndMortyApiTest.executor": "Run",
++    "JUnit.RickAndMortyApiTest.testMortyCharacterInfo.executor": "Run",
+     "Repository.Attach.Annotations": "false",
+     "Repository.Attach.JavaDocs": "false",
+     "Repository.Attach.Sources": "false",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "IF__HW3",
++    "git-widget-placeholder": "IF__HW5",
+     "ignore.virus.scanning.warn.message": "true",
+     "kotlin-language-version-configured": "true",
+     "project.structure.last.edited": "Project",
+@@ -86,82 +90,81 @@
+     "settings.editor.selected.configurable": "preferences.keymap"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
+-    <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="JUnit.RickAndMortyApiTest.testMortyCharacterInfo">
++    <configuration name="PetApiTest.testAddNewPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ifellow.*" />
++          <option name="PATTERN" value="ifellow.petTest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="ifellow" />
+-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+-      <option name="METHOD_NAME" value="chechCountTaskTest" />
++      <option name="PACKAGE_NAME" value="ifellow.petTest" />
++      <option name="MAIN_CLASS_NAME" value="ifellow.petTest.PetApiTest" />
++      <option name="METHOD_NAME" value="testAddNewPet" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MainTest.createBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="PetApiTest.testGetPetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ifellow.*" />
++          <option name="PATTERN" value="ifellow.petTest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="ifellow" />
+-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+-      <option name="METHOD_NAME" value="createBugTest" />
++      <option name="PACKAGE_NAME" value="ifellow.petTest" />
++      <option name="MAIN_CLASS_NAME" value="ifellow.petTest.PetApiTest" />
++      <option name="METHOD_NAME" value="testGetPetById" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MainTest.goProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="PetApiTest.testUpdatePetStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ifellow.pages.*" />
++          <option name="PATTERN" value="ifellow.petTest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="ifellow" />
+-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+-      <option name="METHOD_NAME" value="goProjectTest" />
++      <option name="PACKAGE_NAME" value="ifellow.petTest" />
++      <option name="MAIN_CLASS_NAME" value="ifellow.petTest.PetApiTest" />
++      <option name="METHOD_NAME" value="testUpdatePetStatus" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MainTest.homeworkCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="RickAndMortyApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ifellow.*" />
++          <option name="PATTERN" value="ifellow.petTest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="ifellow" />
+-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+-      <option name="METHOD_NAME" value="homeworkCheckTest" />
+-      <option name="TEST_OBJECT" value="method" />
++      <option name="PACKAGE_NAME" value="ifellow.petTest" />
++      <option name="MAIN_CLASS_NAME" value="ifellow.petTest.RickAndMortyApiTest" />
++      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="RickAndMortyApiTest.testMortyCharacterInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ifellowTest" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ifellow.*" />
++          <option name="PATTERN" value="ifellow.petTest.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="ifellow" />
+-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+-      <option name="METHOD_NAME" value="test" />
++      <option name="PACKAGE_NAME" value="ifellow.petTest" />
++      <option name="MAIN_CLASS_NAME" value="ifellow.petTest.RickAndMortyApiTest" />
++      <option name="METHOD_NAME" value="testMortyCharacterInfo" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -169,11 +172,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="JUnit.MainTest.chechCountTaskTest" />
+-        <item itemvalue="JUnit.MainTest.goProjectTest" />
+-        <item itemvalue="JUnit.MainTest.createBugTest" />
+-        <item itemvalue="JUnit.MainTest.homeworkCheckTest" />
+-        <item itemvalue="JUnit.MainTest.test" />
++        <item itemvalue="JUnit.RickAndMortyApiTest.testMortyCharacterInfo" />
++        <item itemvalue="JUnit.RickAndMortyApiTest" />
++        <item itemvalue="JUnit.PetApiTest.testUpdatePetStatus" />
++        <item itemvalue="JUnit.PetApiTest.testAddNewPet" />
++        <item itemvalue="JUnit.PetApiTest.testGetPetById" />
+       </list>
+     </recent_temporary>
+   </component>

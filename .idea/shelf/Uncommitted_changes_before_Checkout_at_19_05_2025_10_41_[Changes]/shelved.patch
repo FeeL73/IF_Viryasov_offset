@@ -1,0 +1,250 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"eace06a4-60a6-482b-acc6-1a489c45d811\" name=\"Changes\" comment=\"Конфликт5\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/AutoVAZ.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Car.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Chery.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Geely.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/MainClass.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/MainClass.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Suzuki.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Toyota.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;FeeL73&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/FeeL73/IF_Viryasov_offset.git&quot;,\r\n    &quot;accountId&quot;: &quot;e3712864-7bd3-481d-b3bf-889dca106be4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vP78QILP16wqImfXJgc9Xm6gZR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"eace06a4-60a6-482b-acc6-1a489c45d811\" name=\"Changes\" comment=\"\" />\r\n      <created>1744100115353</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1744100115353</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104581634</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104581634</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104863330</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104863330</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104997150</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104997150</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105028452</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105028452</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105724020</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105724020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Viryasov\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105776997</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105776997</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Конфликт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619553317</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619553318</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Конфликт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619577464</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619577464</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Конфликт\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619644647</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619644647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Конфликт1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619686658</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619686658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Конфликт5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744619905736</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744619905736</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Viryasov\" />\r\n    <MESSAGE value=\"Конфликт\" />\r\n    <MESSAGE value=\"Конфликт1\" />\r\n    <MESSAGE value=\"Конфликт5\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Конфликт5\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e5034703e42ff2ff41c3b976795355f48b1efe38)
++++ b/.idea/workspace.xml	(date 1747640433360)
+@@ -4,15 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Конфликт5">
++    <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Выполнил ДЗ, отправляю на ревью">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AutoVAZ.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Chery.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Geely.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainClass.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Suzuki.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Toyota.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -60,14 +56,140 @@
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
+     &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;JUnit.FirstTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.authSiteTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.authTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.chechCountTask.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.chechCountTaskTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.checkNumberTaskTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.checoutTaskTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.createBugTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.createNewBugTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.goProjectTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.homeworkCheckTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.test.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.testLogin.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.MainTest.testLoginTwo.executor&quot;: &quot;Run&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;IF__HW3&quot;,
+     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+   }
+ }</component>
++  <component name="RunManager" selected="JUnit.CucumberRunner">
++    <configuration name="Feature: ATHomwork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++      <option name="CUCUMBER_CORE_VERSION" value="5" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ATHomwork.feature" />
++      <option name="GLUE" value="ifellow.steps" />
++      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
++      <module name="ifellowTest" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
++      <option name="SUGGESTED_NAME" value="Feature: ATHomwork" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.cucumber.core.cli.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Feature: AllProcessTestinBDD" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++      <option name="CUCUMBER_CORE_VERSION" value="5" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AllProcessTestinBDD.feature" />
++      <option name="GLUE" value="ifellow.steps" />
++      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
++      <module name="ifellowTest" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
++      <option name="SUGGESTED_NAME" value="Feature: AllProcessTestinBDD" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.cucumber.core.cli.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Scenario: Проверка статуса и версии задачи (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++      <option name="CUCUMBER_CORE_VERSION" value="5" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createBug.feature" />
++      <option name="GLUE" value="ifellow.steps" />
++      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
++      <module name="ifellowTest" />
++      <option name="NAME_FILTER" value="^Проверка статуса и версии задачи$" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Проверка статуса и версии задачи$&quot;" />
++      <option name="SUGGESTED_NAME" value="Scenario: Проверка статуса и версии задачи" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.cucumber.core.cli.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Scenario: 1. Успешная авторизация" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++      <option name="CUCUMBER_CORE_VERSION" value="5" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AllProcessTestinBDD.feature" />
++      <option name="GLUE" value="ifellow.steps" />
++      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
++      <module name="ifellowTest" />
++      <option name="NAME_FILTER" value="^1\. Успешная авторизация$" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1\. Успешная авторизация$&quot;" />
++      <option name="SUGGESTED_NAME" value="Scenario: 1. Успешная авторизация" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.cucumber.core.cli.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="ifellowTest" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="ifellow.runner.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="ifellow.runner" />
++      <option name="MAIN_CLASS_NAME" value="ifellow.runner.CucumberRunner" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.CucumberRunner" />
++        <item itemvalue="Cucumber Java.Scenario: 1. Успешная авторизация" />
++        <item itemvalue="Cucumber Java.Scenario: Проверка статуса и версии задачи (1)" />
++        <item itemvalue="Cucumber Java.Feature: ATHomwork" />
++        <item itemvalue="Cucumber Java.Feature: AllProcessTestinBDD" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -165,7 +287,63 @@
+       <option name="project" value="LOCAL" />
+       <updated>1744619905736</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="Новая ветка, IF_HW3">
++      <option name="closed" value="true" />
++      <created>1745749317379</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1745749317379</updated>
++    </task>
++    <task id="LOCAL-00013" summary="Новая ветка, IF_HW3">
++      <option name="closed" value="true" />
++      <created>1745749751988</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1745749751988</updated>
++    </task>
++    <task id="LOCAL-00014" summary="Добавил файл">
++      <option name="closed" value="true" />
++      <created>1745749856832</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1745749856832</updated>
++    </task>
++    <task id="LOCAL-00015" summary="Добавил файл">
++      <option name="closed" value="true" />
++      <created>1745750005605</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1745750005605</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Добавил файл">
++      <option name="closed" value="true" />
++      <created>1745750044308</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1745750044308</updated>
++    </task>
++    <task id="LOCAL-00017" summary="Добавил файл">
++      <option name="closed" value="true" />
++      <created>1745750072617</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1745750072617</updated>
++    </task>
++    <task id="LOCAL-00018" summary="Выполнил ДЗ, отправляю на ревью">
++      <option name="closed" value="true" />
++      <created>1745870061780</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1745870061780</updated>
++    </task>
++    <option name="localTasksCounter" value="19" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -184,6 +362,9 @@
+     <MESSAGE value="Конфликт" />
+     <MESSAGE value="Конфликт1" />
+     <MESSAGE value="Конфликт5" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Конфликт5" />
++    <MESSAGE value="Новая ветка, IF_HW3" />
++    <MESSAGE value="Добавил файл" />
++    <MESSAGE value="Выполнил ДЗ, отправляю на ревью" />
++    <option name="LAST_COMMIT_MESSAGE" value="Выполнил ДЗ, отправляю на ревью" />
+   </component>
+ </project>
+\ No newline at end of file
