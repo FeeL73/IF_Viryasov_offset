@@ -16,7 +16,6 @@ public class Specification {
                 .log(BODY)
                 .build();
     }
-
     public static ResponseSpecification baseResponseSpecSuccess(){
         return new ResponseSpecBuilder()
                 .log(ALL)

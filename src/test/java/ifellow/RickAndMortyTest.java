@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class RickAndMortyTest {
-
     @Test
     @DisplayName("Проверка данных по местонахождению и расе персонажа")
     void rickAndMortyApiTest() {

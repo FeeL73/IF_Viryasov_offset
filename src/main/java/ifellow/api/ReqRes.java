@@ -12,8 +12,8 @@ public class ReqRes extends BaseApi {
     }
     public ValidatableResponse postUser(Map<String, String> userData, String apiKey, String contentType) {
         return given()
-                .header("x-api-key", apiKey)  // Передаем apiKey как параметр
-                .header("Content-Type", contentType)  // Передаем Content-Type как параметр
+                .header("x-api-key", apiKey)
+                .header("Content-Type", contentType)
                 .when()
                 .body(userData)
                 .post(USERS_URN)
