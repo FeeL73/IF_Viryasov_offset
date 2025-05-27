@@ -7,8 +7,6 @@ import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.WebDriver;
 import ifellow.pages.utils.Props;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -16,7 +14,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @Epic("Управление проектами")
 @Feature("Навигация")
 public class MainTest extends WebHooks {
-    private static final Logger log = LoggerFactory.getLogger(MainTest.class);
     ProjectTestStep projectTestStep = new ProjectTestStep();
     AuthStep authStep = new AuthStep();
     TaskCountStep taskCountStep = new TaskCountStep();
