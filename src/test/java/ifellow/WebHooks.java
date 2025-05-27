@@ -8,11 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import io.qameta.allure.selenide.AllureSelenide;
-
 import static com.codeborne.selenide.Selenide.open;
-import static ifellow.pages.TaskPage.log;
-
-
 import ifellow.pages.utils.Props;
 
 public class WebHooks {

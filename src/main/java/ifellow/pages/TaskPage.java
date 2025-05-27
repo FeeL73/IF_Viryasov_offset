@@ -50,8 +50,8 @@ public class TaskPage {
         labelsTextarea.shouldBe(visible).sendKeys(labels);
         clickVisualButtonIfNotFocused(environmentVisualButton);
         setTextInFrame(environmentFrame, environmentBody, description);
-        //String filePath = "C:\\Games\\test.txt";
-        //fileInput.sendKeys(filePath);
+        String filePath = "C:\\Games\\test.txt";
+        fileInput.sendKeys(filePath);
         editTochVersion.shouldBe(visible).click();
         relatedTasks.click();
         task.setValue(taskValue);
