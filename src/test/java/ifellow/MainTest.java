@@ -77,9 +77,4 @@ public class MainTest extends WebHooks {
         homeworkCheckTest();
         createdNewBugStep.createAndResolveBug("Ошибка","123","Highest","hh","gfg","TEST-121544","Доска Спринт 1");
     }
-
-    @AfterEach
-    public void tearDown() {
-        log.debug("Тест завершен");
-    }
 }

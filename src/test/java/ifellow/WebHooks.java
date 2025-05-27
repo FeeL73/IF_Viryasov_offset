@@ -3,12 +3,16 @@ package ifellow;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import com.codeborne.selenide.WebDriverRunner;
+import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import io.qameta.allure.selenide.AllureSelenide;
 
 import static com.codeborne.selenide.Selenide.open;
+import static ifellow.pages.TaskPage.log;
+
+
 import ifellow.pages.utils.Props;
 
 public class WebHooks {
@@ -25,5 +29,10 @@ public class WebHooks {
         open(baseUrl);
         WebDriver driver = WebDriverRunner.getWebDriver();
         driver.manage().window().maximize();
+    }
+    @AfterEach
+    public void tearDown() {
+        WebDriverRunner.clearBrowserCache();
+        WebDriverRunner.closeWebDriver();
     }
 }

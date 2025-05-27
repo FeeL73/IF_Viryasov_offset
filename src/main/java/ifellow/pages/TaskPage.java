@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TaskPage {
-    private static final Logger log = LoggerFactory.getLogger(TaskPage.class);
+    public static final Logger log = LoggerFactory.getLogger(TaskPage.class);
     private final SelenideElement buttonCreate = $x("//a[@id='create_link']").as("Кнопка создания Задачи");
     private final SelenideElement inputNameThems = $x("//input[@class='text long-field']").as("Поле ввода названия задачи");
     private final SelenideElement createTaskNew = $x("//input[@id='create-issue-submit']").as("Кнопка создания задачи");
@@ -50,8 +50,8 @@ public class TaskPage {
         labelsTextarea.shouldBe(visible).sendKeys(labels);
         clickVisualButtonIfNotFocused(environmentVisualButton);
         setTextInFrame(environmentFrame, environmentBody, description);
-        String filePath = "C:\\Games\\test.txt";
-        fileInput.sendKeys(filePath);
+        //String filePath = "C:\\Games\\test.txt";
+        //fileInput.sendKeys(filePath);
         editTochVersion.shouldBe(visible).click();
         relatedTasks.click();
         task.setValue(taskValue);
