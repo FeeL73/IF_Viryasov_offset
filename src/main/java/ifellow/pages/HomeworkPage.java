@@ -7,18 +7,19 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class HomeworkPage {
 
-    private final SelenideElement valueStatus = $x("//span[@id='status-val']").as("Статус задачи");
-    private final SelenideElement valueVersionEdit = $x("//span[@id='fixfor-val']").as("Версия задачи");
-    private final SelenideElement buttonCreateBug = $x("//a[@id='create_link']").as("Кнопка создания Бага");
+    private final SelenideElement statusValue = $x("//span[@id='status-val']").as("Статус задачи");
+    private final SelenideElement versionValue = $x("//span[@id='fixfor-val']").as("Версия задачи");
+    private final SelenideElement createBugButton = $x("//a[@id='create_link']").as("Кнопка создания Бага");
 
-    public String getTaskStatus() {
-        return valueStatus.getText();
+    public String getStatusText() {
+        return statusValue.shouldBe(visible).getText();
     }
-    public String getTaskVersion() {
-        return valueVersionEdit.getText();
+
+    public String getVersionText() {
+        return versionValue.shouldBe(visible).getText();
     }
-    public HomeworkPage createBug() {
-        buttonCreateBug.shouldBe(visible, Duration.ofSeconds(10)).click();
-        return this;
+
+    public void clickCreateBug() {
+        createBugButton.shouldBe(visible, Duration.ofSeconds(10)).click();
     }
 }

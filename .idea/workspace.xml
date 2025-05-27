@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Выполнил ДЗ, отправляю на ревью">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_04_2025_12_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/AuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/AuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/HomeworkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/HomeworkPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/ProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/ProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/pages/utils/Props.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/pages/utils/Props.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/WebHooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="IF_HW5_prob" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +71,7 @@
     "JUnit.MainTest.chechCountTask.executor": "Run",
     "JUnit.MainTest.chechCountTaskTest.executor": "Run",
     "JUnit.MainTest.checkNumberTaskTest.executor": "Run",
+    "JUnit.MainTest.checkTasksCountTest.executor": "Run",
     "JUnit.MainTest.checoutTaskTest.executor": "Run",
     "JUnit.MainTest.createBugTest.executor": "Run",
     "JUnit.MainTest.createNewBugTest.executor": "Run",
@@ -72,22 +81,31 @@
     "JUnit.MainTest.test.executor": "Run",
     "JUnit.MainTest.testLogin.executor": "Run",
     "JUnit.MainTest.testLoginTwo.executor": "Run",
+    "Maven.iFellowTest [clean].executor": "Run",
+    "Maven.iFellowTest [io.qameta.allure:allure-maven:2.12.0:install].executor": "Run",
+    "Maven.iFellowTest [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "Maven.ifellowTest [allure:serve].executor": "Run",
+    "Maven.ifellowTest [clean].executor": "Run",
+    "Maven.ifellowTest [io.qameta.allure:allure-maven:2.12.0:install].executor": "Run",
+    "Maven.ifellowTest [io.qameta.allure:allure-maven:2.12.0:report].executor": "Run",
+    "Maven.ifellowTest [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "Maven.task2 [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "IF__HW3",
+    "git-widget-placeholder": "IF__HW6",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.chechCountTaskTest">
-    <configuration name="MainTest.chechCountTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.createBugTest">
+    <configuration name="MainTest.authSiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ifellowTest" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +115,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ifellow" />
       <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="chechCountTaskTest" />
+      <option name="METHOD_NAME" value="authSiteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.checkTasksCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
+      <option name="METHOD_NAME" value="checkTasksCountTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,29 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.MainTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.chechCountTaskTest" />
-        <item itemvalue="JUnit.MainTest.goProjectTest" />
         <item itemvalue="JUnit.MainTest.createBugTest" />
         <item itemvalue="JUnit.MainTest.homeworkCheckTest" />
-        <item itemvalue="JUnit.MainTest.test" />
+        <item itemvalue="JUnit.MainTest.checkTasksCountTest" />
+        <item itemvalue="JUnit.MainTest.authSiteTest" />
+        <item itemvalue="JUnit.MainTest.goProjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,5 +371,12 @@
     <MESSAGE value="Добавил файл" />
     <MESSAGE value="Выполнил ДЗ, отправляю на ревью" />
     <option name="LAST_COMMIT_MESSAGE" value="Выполнил ДЗ, отправляю на ревью" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="driver" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

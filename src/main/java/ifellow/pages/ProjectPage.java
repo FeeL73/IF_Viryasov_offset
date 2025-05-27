@@ -16,25 +16,25 @@ public class ProjectPage {
     private final SelenideElement taskCounter = $x("//div[@class='showing']//span").as("Количество задач");
     private final SelenideElement inputSearch = $x("//input[@id='quickSearchInput']").as("Поле 'Поиск' на странице");
 
-    public ProjectPage applyFilterAndViewTasks() {
+    public void applyFilterAndViewTasks() {
         filterProject.shouldBe(visible).click();
         filterProjectAllTask
                 .shouldBe(visible, Duration.ofSeconds(10))
                 .shouldBe(enabled, Duration.ofSeconds(10))
                 .click();
-        return this;
     }
 
     public int getCurrentTaskCount() {
         String countText = taskCounter.shouldBe(visible).getText();
         return Integer.parseInt(countText.split(" из ")[1]);
+
     }
 
     public int waitForTaskCountChange(int initialTaskCount) {
         int currentTaskCountFunc = 0;
-        String currentTaskCountText = "";
+        String currentTaskCountText;
         long startTime = System.currentTimeMillis();
-        while (System.currentTimeMillis() - startTime < 5000) {
+        while (System.currentTimeMillis() - startTime < 10000) {
             try {
                 currentTaskCountText = $x("//div[@class='showing']//span").getText();
                 currentTaskCountFunc = Integer.parseInt(currentTaskCountText.split(" из ")[1]);
@@ -51,8 +51,7 @@ public class ProjectPage {
         return currentTaskCountFunc;
     }
 
-    public ProjectPage searchForTask(String taskName) {
+    public void searchForTask(String taskName) {
         inputSearch.shouldBe(visible).setValue(taskName).pressEnter();
-        return this;
     }
 }

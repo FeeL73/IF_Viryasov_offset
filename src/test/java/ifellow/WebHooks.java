@@ -1,10 +1,13 @@
 package ifellow;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import io.qameta.allure.selenide.AllureSelenide;
+
 import static com.codeborne.selenide.Selenide.open;
 import ifellow.pages.utils.Props;
 
@@ -12,6 +15,7 @@ public class WebHooks {
 
     @BeforeAll
     public static void beforeAll() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
     }
 
     @BeforeEach
