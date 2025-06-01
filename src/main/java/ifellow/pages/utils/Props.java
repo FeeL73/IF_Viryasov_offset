@@ -1,23 +1,25 @@
+
 package ifellow.pages.utils;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
+import org.aeonbits.owner.Config;
 
-public class Props {
+@Config.Sources({"classpath:config.properties"})
+public interface Props extends Config {
 
-    private static final String CONFIG_FILE_PATH = "src/test/resources/config.properties";
+    @Key("baseUrl")
+    String baseUrl();
 
-    private static final Properties properties = new Properties();
+    @Key("username")
+    String username();
 
-    static {
-        try (FileInputStream input = new FileInputStream(CONFIG_FILE_PATH)) {
-            properties.load(input);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    public static String getProperty(String key) {
-        return properties.getProperty(key);
-    }
+    @Key("password")
+    String password();
+
+    @Key("allure.screenshots")
+    @DefaultValue("false")
+    boolean allureScreenshots();
+
+    @Key("allure.savePageSource")
+    @DefaultValue("false")
+    boolean allureSavePageSource();
 }

@@ -1,7 +1,17 @@
 package ifellow.steps;
 
+import com.codeborne.selenide.WebDriverRunner;
+import io.qameta.allure.Param;
 import io.qameta.allure.Step;
 import ifellow.pages.AuthPage;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+import static io.qameta.allure.model.Parameter.Mode.HIDDEN;
+import static io.qameta.allure.model.Parameter.Mode.MASKED;
+
 
 public class AuthStep {
 
@@ -18,7 +28,7 @@ public class AuthStep {
     }
 
     @Step("Вводим пароль: ******")
-    public void inputPassword(String password) {
+    public void inputPassword(@Param(mode=MASKED) String password) {
         authPage.enterPassword(password);
     }
 
@@ -27,11 +37,25 @@ public class AuthStep {
         authPage.clickLoginButton();
     }
 
-    @Step("Авторизация с логином: {username} и паролем ******")
-    public void login(String username, String password) {
+    @Step("Авторизация с логином: {username} и паролем ****")
+    public void login(String username, @Param(mode=HIDDEN) String password) {
         openLoginForm();
         inputLogin(username);
         inputPassword(password);
         clickLoginButton();
+    }
+
+    @Step("Проверяем, что URL после авторизации содержит: {expectedUrlSubstring}")
+    public void verifyUrlAfterLogin(String expectedUrlSubstring) {
+        WebDriver driver = WebDriverRunner.getWebDriver();
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(webDriver -> {
+                    String currentUrl = webDriver.getCurrentUrl();
+                    return currentUrl != null && currentUrl.contains(expectedUrlSubstring);
+                });
+        String currentUrl = driver.getCurrentUrl();
+        assert currentUrl != null;
+        assert currentUrl.contains(expectedUrlSubstring) :
+                "URL после авторизации должен содержать '" + expectedUrlSubstring + "'";
     }
 }

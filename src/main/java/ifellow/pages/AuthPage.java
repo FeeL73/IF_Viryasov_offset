@@ -1,8 +1,8 @@
 package ifellow.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$x;
 
 public class AuthPage {
     private final SelenideElement loginButton = $x("//a[@class='aui-nav-link login-link']").as("Кнопка для открытия формы авторизации");

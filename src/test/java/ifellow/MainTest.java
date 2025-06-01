@@ -2,18 +2,16 @@ package ifellow;
 
 import ifellow.steps.*;
 import io.qameta.allure.*;
+import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.*;
-import com.codeborne.selenide.WebDriverRunner;
-import org.openqa.selenium.WebDriver;
 import ifellow.pages.utils.Props;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Epic("Управление проектами")
 @Feature("Навигация")
 public class MainTest extends WebHooks {
+    static Props props = ConfigFactory.create(Props.class);
+
     ProjectTestStep projectTestStep = new ProjectTestStep();
     AuthStep authStep = new AuthStep();
     TaskCountStep taskCountStep = new TaskCountStep();
@@ -23,19 +21,10 @@ public class MainTest extends WebHooks {
     @Test
     @DisplayName("1. Авторизация в https://edujira.ifellow.ru/")
     public void authSiteTest() {
-        String username = Props.getProperty("username");
-        String password = Props.getProperty("password");
+        String username = props.username();
+        String password = props.password();
         authStep.login(username, password);
-        WebDriver driver = WebDriverRunner.getWebDriver();
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(webDriver -> {
-                    String currentUrl = webDriver.getCurrentUrl();
-                    return currentUrl != null && currentUrl.contains("secure/Dashboard.jspa");
-                });
-        String currentUrl = driver.getCurrentUrl();
-        assert currentUrl != null;
-        assertTrue(currentUrl.contains("secure/Dashboard.jspa"),
-                "URL после авторизации должен содержать 'secure/Dashboard.jspa'");
+        authStep.verifyUrlAfterLogin("secure/Dashboard.jspa");
     }
 
     @Test
