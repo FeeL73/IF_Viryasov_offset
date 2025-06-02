@@ -28,7 +28,6 @@ public interface Props extends Config {
     String expectedStatus();
     @Key("homeworkStep.expectedVersion")
     String expectedVersion();
-
     @Key("createBug.issueType")
     String createBugIssueType();
     @Key("createBug.topic")
