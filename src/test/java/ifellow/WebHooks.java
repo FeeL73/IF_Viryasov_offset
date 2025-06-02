@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.open;
-import ifellow.pages.utils.Props;
+import ifellow.utils.Props;
 
 public class WebHooks {
     static Props props = ConfigFactory.create(Props.class);

@@ -4,7 +4,7 @@ import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.LogEvent;
 import com.codeborne.selenide.logevents.LogEventListener;
 import org.jetbrains.annotations.NotNull;
-import ifellow.pages.utils.Props;
+import ifellow.utils.Props;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.aeonbits.owner.ConfigFactory;

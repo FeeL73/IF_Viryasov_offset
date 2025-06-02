@@ -4,8 +4,7 @@ import ifellow.steps.*;
 import io.qameta.allure.*;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.*;
-import ifellow.pages.utils.Props;
-
+import ifellow.utils.Props;
 
 @Epic("Управление проектами")
 @Feature("Навигация")
@@ -19,12 +18,13 @@ public class MainTest extends WebHooks {
     CreatedNewBugStep createdNewBugStep = new CreatedNewBugStep();
 
     @Test
-    @DisplayName("1. Авторизация в https://edujira.ifellow.ru/")
+    @DisplayName("1. Авторизация")
     public void authSiteTest() {
         String username = props.username();
         String password = props.password();
+        String expectedUrlSubstring = props.expectedUrlSubstring();
         authStep.login(username, password);
-        authStep.verifyUrlAfterLogin("secure/Dashboard.jspa");
+        authStep.verifyUrlAfterLogin(expectedUrlSubstring);
     }
 
     @Test
@@ -37,11 +37,12 @@ public class MainTest extends WebHooks {
     @Test
     @DisplayName("3. Проверить общее количество заведенных задач в проекте")
     public void checkTasksCountTest() {
+        String taskName = props.taskName();
         goProjectTest();
         taskCountStep.applyAllTasksFilter();
         int initialCount = taskCountStep.getCurrentTasksCount();
         int initialTaskCount = taskCountStep.waitForTasksCountChange(initialCount);
-        taskCountStep.createNewTask("fonk Остров сокровищ");
+        taskCountStep.createNewTask(taskName);
         taskCountStep.applyAllTasksFilter();
         int finalCount = taskCountStep.waitForTasksCountChange(initialTaskCount);
         taskCountStep.verifyTasksCountIncreased(initialTaskCount, finalCount);
@@ -50,17 +51,33 @@ public class MainTest extends WebHooks {
     @Test
     @DisplayName("4. Проверить задачу TestSeleniumATHomework")
     public void homeworkCheckTest() {
+        String homeTaskName = props.homeTaskName();
+        String expectedStatus = props.expectedStatus();
+        String expectedVersion = props.expectedVersion();
         checkTasksCountTest();
-        homeworkStep.searchForTask("TestSeleniumATHomework")
-                .verifyTaskStatus("СДЕЛАТЬ")
-                .verifyTaskVersion("Version 2.0");
+        homeworkStep.searchForTask(homeTaskName)
+                .verifyTaskStatus(expectedStatus)
+                .verifyTaskVersion(expectedVersion);
     }
 
     @Test
     @DisplayName("5. Создать новый баг с описанием")
     @Description("Тест на создание нового бага с подробным описанием")
     public void createBugTest() {
+        String createBugIssueType = props.createBugIssueType();
+        String createBugTopic = props.createBugTopic();
+        String createBugPriority = props.createBugPriority();
+        String createBugLabels = props.createBugLabels();
+        String createBugDescription = props.createBugDescription();
+        String createBugTaskValue = props.createBugTaskValue();
+        String createBugSprintValue = props.createBugSprintValue();
         homeworkCheckTest();
-        createdNewBugStep.createAndResolveBug("Ошибка","123","Highest","hh","gfg","TEST-121544","Доска Спринт 1");
+        createdNewBugStep.createAndResolveBug(createBugIssueType,
+                createBugTopic,
+                createBugPriority,
+                createBugLabels,
+                createBugDescription,
+                createBugTaskValue,
+                createBugSprintValue);
     }
 }
