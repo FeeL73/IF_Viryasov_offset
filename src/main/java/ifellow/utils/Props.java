@@ -3,7 +3,6 @@ package ifellow.utils;
 
 import org.aeonbits.owner.Config;
 
-
 @Config.Sources({"classpath:config.properties"})
 public interface Props extends Config {
     @Key("baseUrl")
@@ -42,5 +41,4 @@ public interface Props extends Config {
     String createBugTaskValue();
     @Key("createBug.sprintValue")
     String createBugSprintValue();
-
 }

@@ -10,7 +10,6 @@ import ifellow.utils.Props;
 @Feature("Навигация")
 public class MainTest extends WebHooks {
     static Props props = ConfigFactory.create(Props.class);
-
     ProjectTestStep projectTestStep = new ProjectTestStep();
     AuthStep authStep = new AuthStep();
     TaskCountStep taskCountStep = new TaskCountStep();
@@ -64,20 +63,7 @@ public class MainTest extends WebHooks {
     @DisplayName("5. Создать новый баг с описанием")
     @Description("Тест на создание нового бага с подробным описанием")
     public void createBugTest() {
-        String createBugIssueType = props.createBugIssueType();
-        String createBugTopic = props.createBugTopic();
-        String createBugPriority = props.createBugPriority();
-        String createBugLabels = props.createBugLabels();
-        String createBugDescription = props.createBugDescription();
-        String createBugTaskValue = props.createBugTaskValue();
-        String createBugSprintValue = props.createBugSprintValue();
         homeworkCheckTest();
-        createdNewBugStep.createAndResolveBug(createBugIssueType,
-                createBugTopic,
-                createBugPriority,
-                createBugLabels,
-                createBugDescription,
-                createBugTaskValue,
-                createBugSprintValue);
+        createdNewBugStep.createAndResolveBug();
     }
 }
