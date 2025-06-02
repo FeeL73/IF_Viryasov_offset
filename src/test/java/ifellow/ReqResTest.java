@@ -11,6 +11,7 @@ import ifellow.steps.ReqResSteps;
 import ifellow.utils.FileUtil;
 import java.util.HashMap;
 import java.util.Map;
+import com.fasterxml.jackson.core.type.TypeReference;
 
 import static org.hamcrest.core.IsEqual.equalTo;
 
@@ -20,7 +21,9 @@ public class ReqResTest {
     @DisplayName("Создание пользователя и проверка ответа")
     void reqResApiTest() throws JsonProcessingException {
         Map<String, String> userData = new ObjectMapper().readValue(
-                FileUtil.readFileFromResources("user.json"), HashMap.class);
+                FileUtil.readFileFromResources("user.json"),
+                new TypeReference<HashMap<String, String>>() {}
+        );
 
         userData.put("name", "Tomato");
         userData.put("job", "Eat maket");
