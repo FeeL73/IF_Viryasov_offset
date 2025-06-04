@@ -1,15 +1,17 @@
 package ifellow.api;
 
 import io.restassured.response.ValidatableResponse;
-import ifellow.ConfigReader;
+import ifellow.utils.Props;
+import org.aeonbits.owner.ConfigFactory;
 
 import static io.restassured.RestAssured.given;
 
 public class RickAndMortyApi extends BaseApi {
+    static Props props = ConfigFactory.create(Props.class);
     private static final String CHARACTER =  "/api/character";
     private static final String EPISODE =  "/api/episode";
     public RickAndMortyApi() {
-        super(ConfigReader.getProp("morty.url"));
+        super(props.mortyUrl());
     }
     public ValidatableResponse getCharacterName(String name) {
         return given()

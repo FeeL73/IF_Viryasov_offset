@@ -9,6 +9,7 @@ import io.restassured.specification.ResponseSpecification;
 import static io.restassured.filter.log.LogDetail.*;
 
 public class Specification {
+
     public static RequestSpecification baseRequestSpec(String url){
         return new RequestSpecBuilder()
                 .setBaseUri(url)

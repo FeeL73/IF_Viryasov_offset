@@ -1,15 +1,20 @@
 package ifellow.api;
 
 import io.restassured.response.ValidatableResponse;
-import ifellow.ConfigReader;
+import ifellow.utils.Props;
+import org.aeonbits.owner.ConfigFactory;
+
 import static io.restassured.RestAssured.given;
 import java.util.Map;
 
 public class ReqRes extends BaseApi {
+    static Props props = ConfigFactory.create(Props.class);
     private static final String USERS_URN =  "/api/users";
+
     public ReqRes() {
-        super(ConfigReader.getProp("reqres.base_url"));
+        super(props.reqresBase_url());
     }
+
     public ValidatableResponse postUser(Map<String, String> userData, String apiKey, String contentType) {
         return given()
                 .header("x-api-key", apiKey)

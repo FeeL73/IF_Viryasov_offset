@@ -5,40 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eace06a4-60a6-482b-acc6-1a489c45d811" name="Changes" comment="Добавил выолненное 5 тестовое задание">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ifellow/utils/Props.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_10_39_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_10_39__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_10_41_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_10_41__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_14_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_14_50_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_14_50__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_14_50__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_17_11_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_05_2025_17_11__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]2/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/08e11223-a907-4ff6-aadd-59633201ce4d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0e3fde5f-4474-460b-82f0-5f1cd7832d39-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1eb3712a-1366-423a-82d0-b89810c8de54-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/21d3382b-3dd7-43ef-a75d-50e7943a5e15-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/26dae81c-dd15-4207-8011-6afd28285c41-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/30f141e7-21db-4920-a54b-34662bb4a04b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/32f87283-f89c-493d-9a83-0dd97dca2b7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3aec9ee2-a1ee-4a4e-9c42-eb46fc8adb65-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/45b4bb40-0a89-4cae-a523-dd1d93db5ce5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/53134f58-29d7-4692-b2ac-673de67807f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/53e5563d-d146-42d8-81f4-c075c2817e5a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/59f7fb64-752a-42e7-813c-0cfd29b98dde-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/619ea225-9593-44fe-9da5-c0f2b81235e6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/67c98e4a-bf11-454f-a8b1-8965721ad71a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/78a9754c-c90c-4853-9f23-1041143f9c97-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7bc03d9b-839e-44e1-bc0d-1655891cb914-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7d99a96c-f0b5-4196-9582-481db9f0a210-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7dd182b6-edd2-4624-a230-fe737fc973be-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/83c5cbc0-b68d-4b05-aff8-151de9ceab05-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/851ad9e9-3aef-4f39-a96d-41c5859dc1e4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9696ed48-e3fb-487b-839e-bdb01e53a417-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9d3ee8aa-d133-40ed-ae44-d659c25f8fac-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bd2684e1-2566-47ea-bf16-8567f1c60834-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cefb8423-2607-47df-8cf4-f8b06d8d66f9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/db92449b-2554-4e7b-9b0f-edc5fba203f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dfaf400c-028c-4f97-ba15-a089c04518f9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e051ef7a-d2b9-455d-af9e-9e9810012433-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e843381d-18a9-4f2c-8df9-e8f9371eaca4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f0e4dbf6-a944-4aa0-82a5-33ce29a2c0c8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f92255ea-3744-4fe4-9ab7-8cef93a25c03-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/ReqResTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ifellow/ReqResTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/ConfigReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/api/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/api/BaseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/api/ReqRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/api/ReqRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/api/RickAndMortyApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/api/RickAndMortyApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/api/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/api/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/steps/ReqResSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/steps/reqRes/ReqResSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ifellow/steps/RickAndMortySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ifellow/steps/rickAndMorty/RickAndMortySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/ReqResTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ifellow/RickAndMortyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,6 +69,9 @@
     &quot;accountId&quot;: &quot;e3712864-7bd3-481d-b3bf-889dca106be4&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -83,139 +83,165 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainClass.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.FirstTest.executor": "Run",
-    "JUnit.MainTest.authSiteTest.executor": "Run",
-    "JUnit.MainTest.authTest.executor": "Run",
-    "JUnit.MainTest.chechCountTask.executor": "Run",
-    "JUnit.MainTest.chechCountTaskTest.executor": "Run",
-    "JUnit.MainTest.checkNumberTaskTest.executor": "Run",
-    "JUnit.MainTest.checoutTaskTest.executor": "Run",
-    "JUnit.MainTest.createBugTest.executor": "Run",
-    "JUnit.MainTest.createNewBugTest.executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.goProjectTest.executor": "Run",
-    "JUnit.MainTest.homeworkCheckTest.executor": "Run",
-    "JUnit.MainTest.test.executor": "Run",
-    "JUnit.MainTest.testLogin.executor": "Run",
-    "JUnit.MainTest.testLoginTwo.executor": "Run",
-    "JUnit.ReqRes.executor": "Run",
-    "JUnit.ReqResTest.executor": "Run",
-    "JUnit.ReqResTest.reqResApiTest.executor": "Run",
-    "JUnit.RickAndMortyTest.executor": "Run",
-    "JUnit.RickAndMortyTest.rickAndMortyApiTest.executor": "Run",
-    "JUnit.TestMorty.cccc.executor": "Run",
-    "JUnit.TestMorty.executor": "Run",
-    "JUnit.TestMorty.rickAndMortyApiTest.executor": "Run",
-    "Maven.ifellowTest [clean].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "IF__HW__API",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: reqRes.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: rickAndMorty.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Проверка совпадения локации и расы персонажей.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Создание пользователя.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CucumberRunner (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CucumberRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.authSiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.authTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.chechCountTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.chechCountTaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.checkNumberTaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.checoutTaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.createBugTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.createNewBugTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.goProjectTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.homeworkCheckTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.testLoginTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqRes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqResTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReqResTest.reqResApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RickAndMortyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RickAndMortyTest.rickAndMortyApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunCucumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMorty.cccc.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMorty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMorty.rickAndMortyApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ifellowTest [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ifellowTest [io.qameta.allure:allure-maven:2.12.0:serve].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;IF__HW__API&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\IdeaProjects\IF_Viryasov_offset\src\test\java\ifellow" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ifellow" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReqResTest">
-    <configuration name="ReqResTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CucumberRunner">
+    <configuration name="Feature: reqRes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/reqRes.feature" />
+      <option name="GLUE" value="ifellow.steps.reqRes" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ifellowTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: reqRes" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifellow.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.ReqResTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: rickAndMorty" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rickAndMorty.feature" />
+      <option name="GLUE" value="ifellow.steps.rickAndMorty ifellow.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ifellowTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: rickAndMorty" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Создание пользователя" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/reqRes.feature" />
+      <option name="GLUE" value="ifellow.steps.reqRes" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ifellowTest" />
+      <option name="NAME_FILTER" value="^Создание пользователя$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Создание пользователя$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Создание пользователя" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Проверка совпадения локации и расы персонажей" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/rickAndMorty.feature" />
+      <option name="GLUE" value="ifellow.steps.rickAndMorty ifellow.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ifellowTest" />
+      <option name="NAME_FILTER" value="^Проверка совпадения локации и расы персонажей$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Проверка совпадения локации и расы персонажей$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Проверка совпадения локации и расы персонажей" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ifellowTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifellow.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ifellow.runner" />
+      <option name="MAIN_CLASS_NAME" value="ifellow.runner.CucumberRunner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReqResTest.reqResApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.ReqResTest" />
-      <option name="METHOD_NAME" value="reqResApiTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RickAndMortyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.RickAndMortyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RickAndMortyTest.cccc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.RickAndMortyTest" />
-      <option name="METHOD_NAME" value="cccc" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RickAndMortyTest.rickAndMortyApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ifellowTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifellow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ifellow" />
-      <option name="MAIN_CLASS_NAME" value="ifellow.RickAndMortyTest" />
-      <option name="METHOD_NAME" value="rickAndMortyApiTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReqResTest" />
-        <item itemvalue="JUnit.ReqResTest.reqResApiTest" />
-        <item itemvalue="JUnit.RickAndMortyTest" />
-        <item itemvalue="JUnit.RickAndMortyTest.rickAndMortyApiTest" />
-        <item itemvalue="JUnit.RickAndMortyTest.cccc" />
+        <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="Cucumber Java.Feature: reqRes" />
+        <item itemvalue="Cucumber Java.Scenario: Создание пользователя" />
+        <item itemvalue="Cucumber Java.Feature: rickAndMorty" />
+        <item itemvalue="Cucumber Java.Scenario: Проверка совпадения локации и расы персонажей" />
       </list>
     </recent_temporary>
   </component>
@@ -404,5 +430,15 @@
     <MESSAGE value="Выполнил ДЗ, отправляю на ревью" />
     <MESSAGE value="Добавил выолненное 5 тестовое задание" />
     <option name="LAST_COMMIT_MESSAGE" value="Добавил выолненное 5 тестовое задание" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

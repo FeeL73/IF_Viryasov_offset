@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 public abstract class BaseApi {
 
     public BaseApi(String baseUrl) {
+        RestAssured.baseURI = baseUrl;
         RestAssured.requestSpecification = Specification.baseRequestSpec(baseUrl);
         RestAssured.responseSpecification = Specification.baseResponseSpecSuccess();
     }
