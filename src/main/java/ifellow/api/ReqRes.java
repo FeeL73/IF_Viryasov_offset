@@ -9,16 +9,17 @@ import java.util.Map;
 
 public class ReqRes extends BaseApi {
     static Props props = ConfigFactory.create(Props.class);
-    private static final String USERS_URN =  "/api/users";
-
+    String USERS_URN =  props.reqresUrn();
+    String apiKeyHeader = props.xApi();
+    String contentTypeHeader = props.contentType();
     public ReqRes() {
         super(props.reqresBase_url());
     }
 
     public ValidatableResponse postUser(Map<String, String> userData, String apiKey, String contentType) {
         return given()
-                .header("x-api-key", apiKey)
-                .header("Content-Type", contentType)
+                .header(apiKeyHeader, apiKey)
+                .header(contentTypeHeader, contentType)
                 .when()
                 .body(userData)
                 .post(USERS_URN)

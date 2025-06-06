@@ -1,54 +1,62 @@
 package ifellow.steps.rickAndMorty;
 
 import ifellow.api.RickAndMortyApi;
-
-import io.qameta.allure.Step;
-
-import lombok.var;
-import org.apache.http.HttpStatus;
 import ifellow.dto.Character;
+import io.qameta.allure.Step;
+import io.restassured.response.ValidatableResponse;
+import org.apache.http.HttpStatus;
 
-public class RickAndMortySteps{
+public class RickAndMortySteps {
     private final RickAndMortyApi rickAndMortyApi = new RickAndMortyApi();
+
     @Step("Получаем персонажа {name}")
-    public Character getCharacterName(String name) {
-        return rickAndMortyApi.getCharacterName(name)
-                .statusCode(HttpStatus.SC_OK)
-                .extract()
-                .body()
-                .jsonPath()
-                .getObject("results[0]", Character.class);
+    public Character getCharacterByName(String name) {
+        return extractResponseBody(
+                rickAndMortyApi.getCharacterName(name),
+                "results[0]",
+                Character.class
+        );
     }
 
     @Step("Получаем последнего персонажа в эпизоде с ID: {id}")
     public Character getLastCharacterEpisode(String id) {
-        String url = getLastCharacterUrlEpisode(id);
+        String url = getLastCharacterUrlFromEpisode(id);
         String characterId = extractIdFromUrl(url);
         return getCharacterById(characterId);
     }
 
     @Step("Получаем URL последнего персонажа по ID эпизода {episodeId}")
-    private String getLastCharacterUrlEpisode(String episodeId) {
-        return rickAndMortyApi.getEpisodeId(episodeId)
+    private String getLastCharacterUrlFromEpisode(String episodeId) {
+        return extractResponseBody(
+                rickAndMortyApi.getEpisodeId(episodeId),
+                "characters[-1]",
+                String.class
+        );
+    }
+
+    @Step("Получаем параметры персонажа с ID {id}")
+    private Character getCharacterById(String id) {
+        return extractResponseBody(
+                rickAndMortyApi.getCharacterById(id),
+                Character.class
+        );
+    }
+
+    @Step("Извлекаем ID из URL {url}")
+    public static String extractIdFromUrl(String url) {
+        return url.substring(url.lastIndexOf('/') + 1);
+    }
+
+    private <T> T extractResponseBody(ValidatableResponse response, String jsonPath, Class<T> type) {
+        return response
                 .statusCode(HttpStatus.SC_OK)
                 .extract()
                 .body()
                 .jsonPath()
-                .getString("characters[-1]");
+                .getObject(jsonPath, type);
     }
 
-    @Step("Получаем параметры Персонажа с ID {id}")
-    private Character getCharacterById(String id) {
-        return rickAndMortyApi.getCharacterById(id)
-                .statusCode(HttpStatus.SC_OK)
-                .extract()
-                .body()
-                .as(Character.class);
-    }
-
-    @Step("Получаем значение ID из URL {url}")
-    public static String extractIdFromUrl(String url) {
-        var strings = url.split("/");
-        return strings[strings.length-1];
+    private <T> T extractResponseBody(ValidatableResponse response, Class<T> type) {
+        return extractResponseBody(response, "", type);
     }
 }

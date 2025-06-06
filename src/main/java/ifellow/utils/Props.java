@@ -8,6 +8,11 @@ public interface Props extends Config {
     String mortyUrl();
     @Key("morty.character_name")
     String mortyCharacter_name();
+    @Key("morty.character")
+    String character();
+    @Key("morty.episode")
+    String episode();
+
     @Key("reqres.base_url")
     String reqresBase_url();
     @Key("reqres.apiKey")
@@ -18,5 +23,12 @@ public interface Props extends Config {
     String reqresName();
     @Key("reqres.job")
     String reqresJob();
+    @Key("reqres.urn")
+    String reqresUrn();
+    @Key("reqres.x-api")
+    String xApi();
+    @Key("reqres.contentType")
+    String contentType();
+
 }
 

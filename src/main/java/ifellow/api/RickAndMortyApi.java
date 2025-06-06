@@ -8,28 +8,37 @@ import static io.restassured.RestAssured.given;
 
 public class RickAndMortyApi extends BaseApi {
     static Props props = ConfigFactory.create(Props.class);
-    private static final String CHARACTER =  "/api/character";
-    private static final String EPISODE =  "/api/episode";
+    String CHARACTER = props.character();
+    String EPISODE = props.episode();
+
     public RickAndMortyApi() {
         super(props.mortyUrl());
     }
+
+    private ValidatableResponse sendGetRequest(String endpoint, String paramName, String paramValue) {
+        return given()
+                .when()
+                .queryParam(paramName, paramValue)
+                .get(endpoint)
+                .then();
+    }
+
+    private ValidatableResponse sendGetRequestById(String endpoint, String id) {
+        return given()
+                .when()
+                .get(String.format("%s/%s", endpoint, id))
+                .then();
+    }
+
     public ValidatableResponse getCharacterName(String name) {
-        return given()
-                .when()
-                .queryParam("name", name)
-                .get(CHARACTER)
-                .then();
+        return sendGetRequest(CHARACTER, "name", name);
     }
+
     public ValidatableResponse getCharacterById(String id) {
-        return given()
-                .when()
-                .get(String.format("%s/%s", CHARACTER, id))
-                .then();
+        return sendGetRequestById(CHARACTER, id);
     }
+
     public ValidatableResponse getEpisodeId(String id) {
-        return given()
-                .when()
-                .get(String.format("%s/%s", EPISODE, id))
-                .then();
+        return sendGetRequestById(EPISODE, id);
     }
 }

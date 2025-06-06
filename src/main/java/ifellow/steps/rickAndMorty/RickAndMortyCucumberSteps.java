@@ -18,7 +18,7 @@ public class RickAndMortyCucumberSteps {
 
     @Когда("Получаем данные по персонажу")
     public void  getDataMorty() {
-        this.morty = rickAndMortySteps.getCharacterName(props.mortyCharacter_name());
+        this.morty = rickAndMortySteps.getCharacterByName(props.mortyCharacter_name());
     }
 
     @Тогда("Получаем последнего персонажа из последнего эпизода")
