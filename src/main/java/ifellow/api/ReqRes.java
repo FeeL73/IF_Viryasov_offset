@@ -10,8 +10,8 @@ import java.util.Map;
 public class ReqRes extends BaseApi {
     static Props props = ConfigFactory.create(Props.class);
     String USERS_URN =  props.reqresUrn();
-    String apiKeyHeader = props.xApi();
-    String contentTypeHeader = props.contentType();
+    String apiKeyHeader = props.xApiHeader();
+    String contentTypeHeader = props.contentTypeHeader();
     public ReqRes() {
         super(props.reqresBase_url());
     }

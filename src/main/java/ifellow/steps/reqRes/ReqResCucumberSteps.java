@@ -21,6 +21,7 @@ public class ReqResCucumberSteps {
 
     @Когда("создаем пользователя, поменяем name и job")
     public void createUser() throws JsonProcessingException {
+        String reqresContentType = props.reqresContentType();
         Map<String, String> userData = new ObjectMapper().readValue(
                 FileUtil.readFileFromResources("user.json"),
                 new TypeReference<HashMap<String, String>>() {}
@@ -30,7 +31,7 @@ public class ReqResCucumberSteps {
         response = reqResSteps.createUser(
                 userData,
                 props.reqresApiKey(),
-                props.reqresContentType()
+                reqresContentType
         );
     }
 

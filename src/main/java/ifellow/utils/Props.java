@@ -25,10 +25,10 @@ public interface Props extends Config {
     String reqresJob();
     @Key("reqres.urn")
     String reqresUrn();
-    @Key("reqres.x-api")
-    String xApi();
-    @Key("reqres.contentType")
-    String contentType();
+    @Key("reqres.x-apiHeader")
+    String xApiHeader();
+    @Key("reqres.contentHeader")
+    String contentTypeHeader();
 
 }
 
