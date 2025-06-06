@@ -8,10 +8,10 @@ public class Hooks  {
     private static final Logger log = LoggerFactory.getLogger(Hooks.class);
     @Before
     public void setup() {
-        log.info("Начинаем выполнение теста...");
+        log.info("Начинаем выполнение теста");
     }
     @After
     public void afterScenario() {
-        log.info("Тест завершён.");
+        log.info("Тест завершён");
     }
 }

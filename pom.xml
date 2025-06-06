@@ -28,15 +28,14 @@
         <cucumber.version>7.22.1</cucumber.version>
         <commons-codec.version>1.15</commons-codec.version>
         <io.rest-assured.version>5.5.0</io.rest-assured.version>
-        <org.junit.platform.version>1.10.0</org.junit.platform.version>
-        <log4j-api.version>2.24.1</log4j-api.version>
+        <org.junit.platform.version>1.12.2</org.junit.platform.version>
+        <jackson-databind.version>2.19.0</jackson-databind.version>
     </properties>
-
     <dependencies>
         <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>${log4j-api.version}</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-databind.version}</version>
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -57,6 +56,16 @@
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite</artifactId>
+            <version>${org.junit.platform.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>${org.junit.platform.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite-api</artifactId>
             <version>${org.junit.platform.version}</version>
         </dependency>
         <dependency>
